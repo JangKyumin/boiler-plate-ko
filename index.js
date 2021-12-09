@@ -9,7 +9,7 @@ const config = require("./config/key");
 
 const { User } = require("./models/User");
 
-//application/x_www-form-urlencoded 1
+//application/x_www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //application/json
